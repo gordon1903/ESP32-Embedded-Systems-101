@@ -26,7 +26,7 @@ void loop() {
 
     Serial.println(ledState ? "LED ON" : "LED OFF");
 
-    delay(1000);  // Simple debounce delay
+    delay(50);  // Simple debounce delay
   }
 
   // Remember button state for next iteration
