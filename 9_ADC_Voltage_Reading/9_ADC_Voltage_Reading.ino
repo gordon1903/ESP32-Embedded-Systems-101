@@ -11,8 +11,7 @@ void setup() {
 
   // Configure ADC resolution
   analogReadResolution(12);
-  // Resolution could be choosen from 1bit up to 16bit 
-  // For 12 bits, Analog voltage input could assign into 2^12= 4096 intergers, which is 0 to 4095 ADC input code
+  // For 12 bits Resolution, Analog voltage input could assign into 2^12= 4096 intergers, which is 0 to 4095 ADC input code
   // Higher resolution could achieve finer quantize input control
 }
 
