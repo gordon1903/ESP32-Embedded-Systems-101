@@ -62,4 +62,6 @@ void loop() {
   Serial.println("%");
 
   delay(100);
+  // Delay is not recommended here, as it will stop the program and influence the process of other function 
+  // Code improvisation is recommended
 }
